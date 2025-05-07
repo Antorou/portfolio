@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to top, #e6e8ff 0%, #e3e5ff 60%);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
