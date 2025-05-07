@@ -120,6 +120,8 @@ export default function Portfolio() {
     document.body.style.overflow = 'auto'; // Re-enable scrolling
   };
 
+  const [enlargedImage, setEnlargedImage] = useState(null);
+
   return (
     <div className={`container mx-auto px-4 py-8 transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
       {/* Introductory sentence with animation */}
@@ -198,7 +200,7 @@ export default function Portfolio() {
                   className="carousel-container"
                 >
                   {selectedProject?.images.map((image, index) => (
-                    <div key={index} className="h-96">
+                    <div key={index} className="h-96 cursor-pointer" onClick={() => setEnlargedImage(image)}>
                       <img 
                         src={image} 
                         alt={`${selectedProject.title} - ${index + 1}`} 
@@ -273,6 +275,31 @@ export default function Portfolio() {
           ))}
         </div>
       </div>
+
+      {/* Enlarged Image Modal */}
+      {enlargedImage && (
+        <div 
+          className="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50 p-4 animate-fadeIn"
+          onClick={() => setEnlargedImage(null)}
+        >
+          <div className="relative max-w-6xl max-h-[90vh]">
+            <button 
+              onClick={(e) => {
+                e.stopPropagation();
+                setEnlargedImage(null);
+              }}
+              className="absolute -top-10 right-0 text-white hover:text-gray-300 text-4xl"
+            >
+              &times;
+            </button>
+            <img 
+              src={enlargedImage} 
+              alt="Enlarged view" 
+              className="max-w-full max-h-[80vh] object-contain"
+            />
+          </div>
+        </div>
+      )}
     </div>
   );
 }
