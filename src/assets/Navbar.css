@@ -7,9 +7,12 @@
 }
 
 .navbar-brand {
-  font-size: 20px;
-  font-weight: bold;
-  color: #333;
+  height: 40px; /* Adjust based on your logo's aspect ratio */
+}
+
+.navbar-brand img {
+  height: 100%;
+  width: auto;
 }
 
 .navbar-links {
