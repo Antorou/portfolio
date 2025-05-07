@@ -49,7 +49,7 @@ export default function Portfolio() {
         "runation2.jpg",
       ],
       description: "Jeu de stratégie et de running",
-      details: "Création d'un jeu de stratégie façon conquete de territoire, où le but est de courir et de prendre le contrôle d'un maximum de zones. Nous avons uilisé l'API de Strava.",
+      details: "Développement d’un jeu de stratégie basé sur la conquête de territoires, dans lequel les utilisateurs doivent courir pour prendre le contrôle de zones géographiques. L’application s’appuie sur l’API de Strava pour le suivi des runs.",
       technologies: ["Ruby", "Ruby on Rails", "JavaScript", "PostgreSQL", "Heroku"]
     },
     {
@@ -61,7 +61,7 @@ export default function Portfolio() {
         "bali1.png"
       ],
       description: "Site vitrine pour un guide",
-      details: "Detailed information about project 2 including technologies used, challenges faced, and outcomes achieved.",
+      details: "Création d'un site vitrine pour un guide en Indonésie.",
       technologies: ["ReactJS", "Tailwind"]
     },
     {
@@ -102,9 +102,9 @@ export default function Portfolio() {
       "recipes03.png",
       "recipes04png",
     ],
-    description: "Programmation d'une bataille navale",
-    details: "Programmation de l'iconnique Bataille navale, jouable dans le terminal.",
-    technologies: ["TypeScript", "NodeJS"]
+    description: "Création d'une app de recettes.",
+    details: "Création d'une app de recettes (en cours). ",
+    technologies: ["TypeScript", "React", "NodeJS", "MySQL"]
   },
   ];
 
