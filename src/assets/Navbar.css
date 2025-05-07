@@ -7,9 +7,17 @@
 }
 
 .navbar-brand {
-  height: 40px; /* Adjust based on your logo's aspect ratio */
+  /* height: 40px; Adjust based on your logo's aspect ratio */
+  font-size: 44px;
+  font-weight: 900;
+  color: #2c54ac
 }
 
+.navbar-brand:hover {
+  color: #f76d2c;
+  transform: scale(1.05);
+  transition: transform 0.9s ease
+}
 .navbar-brand img {
   height: 100%;
   width: auto;

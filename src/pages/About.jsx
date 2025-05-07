@@ -9,13 +9,19 @@ export default function About() {
         <div className="bio-text">
           <h2>Qui suis-je ?</h2>
           <p>
-          Salut ! Je suis Antoine, étudiant passionné par le développement web 💻.</p>
-          <p>J'adore donner vie à des projets créatifs en utilisant HTML/CSS, JavaScript, 
-            et en explorant des frameworks comme React et Ruby on Rails 🚀.</p>
-            <p>Mon objectif ? Transformer des idées en expériences numériques captivantes, 
-              en alliant créativité et technicité pour des résultats époustouflants ✨.</p>
-               <p>Je suis toujours à la recherche de nouveaux défis et opportunités pour grandir et apprendre
-                 dans ce domaine en constante évolution 🌱.
+            Salut ! Je suis Antoine, étudiant passionné par le développement web.
+          </p>
+          <p>
+            J'adore donner vie à des projets créatifs en utilisant HTML/CSS, JavaScript, 
+            et en explorant des frameworks comme React et Ruby on Rails.
+          </p>
+          <p>
+            Mon objectif ? Transformer des idées en expériences numériques captivantes, 
+            en alliant créativité et technicité pour des résultats époustouflants.
+          </p>
+          <p>
+            Je suis toujours à la recherche de nouveaux défis et opportunités pour grandir et apprendre
+            dans ce domaine en constante évolution .
           </p>
         </div>
       </div>
@@ -28,7 +34,7 @@ export default function About() {
             <div className="journey-icon">🍽️</div>
             <div className="journey-content">
               <h3>Restauration</h3>
-              <p>J'ai commencé ma carrière dans le domaine de la restauration à Londres dès mes 18 ans en m'y expatriant seul et où j'ai développé mon sens du service et du travail d'équipe.</p>
+              <p>J'ai commencé ma carrière dans le domaine de la restauration à Londres dès l'âge de 18 ans, en m'y expatriant seul. Cette expérience m'a permis de développer un fort sens du service, du travail d'équipe, et m'a conduit à occuper un poste de manager.</p>
             </div>
           </div>
           <div className="journey-item">
@@ -49,7 +55,7 @@ export default function About() {
             <div className="journey-icon">🎓</div>
             <div className="journey-content">
               <h3>Master à l'ETNA</h3>
-              <p>Aujourd'hui, je poursuis mes études en master à l'ETNA et en al pour approfondir mes connaissances et me spécialiser.</p>
+              <p>Aujourd'hui, je poursuis mes études en master à l'ETNA et en alternance pour approfondir mes connaissances et me spécialiser.</p>
             </div>
           </div>
         </div>

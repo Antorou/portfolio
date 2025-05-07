@@ -6,9 +6,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <NavLink to="/">
-          <img src={logo} alt="AR Logo" />
-        </NavLink>
+      <NavLink to="/" end>AR</NavLink>
       </div>
       <div className="navbar-links">
         <NavLink to="/" end>Home</NavLink>

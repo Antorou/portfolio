@@ -87,3 +87,8 @@
         animation-duration: 0.6s;
     }
 }
+
+.btnn:hover {
+    background-color: #f76d2c;
+}
+

@@ -126,7 +126,7 @@ export default function Portfolio() {
     <div className={`container mx-auto px-4 py-8 transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
       {/* Introductory sentence with animation */}
       <div className="text-center mb-12 animate-fadeInUp">
-        <h2 className="text-4xl font-bold text-gray-800 mb-4">Mes projets</h2>
+        <h2 className="text-4xl font-bold text-blue-900 mb-4">Mes projets</h2>
         <p className="text-xl text-gray-600 max-w-2xl mx-auto">
           Voici ici mes projets. Cliquez sur chacun d'eux pour plus de détails, screenshots, et les technologies usées.
         </p>
@@ -146,7 +146,7 @@ export default function Portfolio() {
               className="w-full h-48 object-contain transition-transform duration-500 hover:scale-110"
             />
             <div className="p-4 flex-grow">
-              <h3 className="font-bold text-xl mb-2">{project.title}</h3>
+              <h3 className="font-bold text-center text-xl mb-2">{project.title}</h3>
               <p className="text-gray-700 text-base">
                 {project.description}
               </p>
@@ -154,7 +154,7 @@ export default function Portfolio() {
             <div className="px-4 pb-4">
               <button 
                 onClick={() => openModal(project)}
-                className="w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-xl transition-all duration-300 hover:shadow-lg"
+                className="btnn w-full bg-blue-500 text-white font-bold py-2 px-4 rounded-xl transition-all duration-300 hover:shadow-lg"
               >
                 Voir le projet
               </button>

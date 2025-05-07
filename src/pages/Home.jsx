@@ -48,13 +48,14 @@ export default function Home() {
             <h1>Antoine Rousselot</h1>
             <h2>Étudiant en <span class="etudiant">développement web</span></h2>
             <p>En pleine reconversion, j'apprends le métier de développeur web en Master à l'ETNA</p>
+            <a href="/cv.pdf" download className="download-cv-btn"> Télécharger mon CV </a>          
           </div>
         </div>
         <div className="content-sections">
         <Link to="/portfolio" className="section">
           <img src="portfolio.png" alt="Portfolio" className="section-pic rounded-xl" />
           <h3>Portfolio</h3>
-          <p>Pour voir quelques un de mes projets</p>
+          <p>Pour voir quelques-uns de mes projets</p>
           <div className="btn">Voir le portfolio</div>
         </Link>
         <Link to="/about" className="section">
@@ -65,7 +66,7 @@ export default function Home() {
         </Link>
         </div>
         <div className="contact-section">
-          <h3>Par ici si vous souhaitez me contacter :</h3>
+          <h3>Pour toute demande :</h3>
           <form id="contact-form">
             <input type="text" name="name" placeholder="Votre nom" required />
             <input type="email" name="email" placeholder="Votre email" required />
