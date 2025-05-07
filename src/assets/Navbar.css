@@ -28,11 +28,11 @@
 }
 
 .navbar-links a:hover {
-  color: #000;
+  color: #00177e;
 }
 
 /* Style for active link */
 .navbar-links a.active {
-  color: #000;
+  color: #00177e;
   font-weight: bold;
 }

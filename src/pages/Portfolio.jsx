@@ -44,9 +44,9 @@ export default function Portfolio() {
       id: 1,
       title: "RuNation",
       images: [
+        "rn.jpg",
         "runation1.jpg",
         "runation2.jpg",
-        "project-image3.jpg"
       ],
       description: "Jeu de stratégie et de running",
       details: "Création d'un jeu de stratégie façon conquete de territoire, où le but est de courir et de prendre le contrôle d'un maximum de zones. Nous avons uilisé l'API de Strava.",
@@ -56,7 +56,7 @@ export default function Portfolio() {
       id: 2,
       title: "Visit Indonesia",
       images: [
-        "flores.png",
+        "flores.jpg",
         "bali.png",
         "bali1.png"
       ],

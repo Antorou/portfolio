@@ -1,5 +1,6 @@
 import "../assets/Home.css"
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 export default function Home() {
 
@@ -46,22 +47,22 @@ export default function Home() {
           <div className="profile-text">
             <h1>Antoine Rousselot</h1>
             <h2>Étudiant en <span class="etudiant">développement web</span></h2>
-            <p>En pleine reconversion, j'apprends le métier de développeur web en Master à l'ETNA.</p>
+            <p>En pleine reconversion, j'apprends le métier de développeur web en Master à l'ETNA</p>
           </div>
         </div>
         <div className="content-sections">
-          <div className="section">
-            <img src="portfolio.png" alt="Portfolio" className="section-pic rounded-xl" />
-            <h3>Portfolio</h3>
-            <p>Pour voir quelques un de mes projets.</p>
-            <button className="btn">Voir le portfolio</button>
-          </div>
-          <div className="section">
-            <img src="bout.png" alt="About" className="section-pic rounded-xl" />
-            <h3>A propos</h3>
-            <p>Pour en savoir plus sur moi et mes compétences. </p>
-            <button className="btn">En savoir plus</button>
-          </div>
+        <Link to="/portfolio" className="section">
+          <img src="portfolio.png" alt="Portfolio" className="section-pic rounded-xl" />
+          <h3>Portfolio</h3>
+          <p>Pour voir quelques un de mes projets</p>
+          <div className="btn">Voir le portfolio</div>
+        </Link>
+        <Link to="/about" className="section">
+          <img src="bout.png" alt="A propos" className="section-pic rounded-xl" />
+          <h3>À propos</h3>
+          <p>Pour en savoir plus sur mon profil et mes compétences</p>
+          <div className="btn">En savoir plus</div>
+        </Link>
         </div>
         <div className="contact-section">
           <h3>Par ici si vous souhaitez me contacter :</h3>
