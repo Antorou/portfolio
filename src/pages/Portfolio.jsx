@@ -106,6 +106,18 @@ export default function Portfolio() {
     details: "Création d'une app de recettes (en cours). ",
     technologies: ["TypeScript", "React", "NodeJS", "MySQL"]
   },
+  {
+    id: 6,
+    title: "Memory Card Game",
+    images: [
+      "memory1.png",
+      "memory2.png",
+      "memory3.png",
+    ],
+    description: "Création d'un jeu de mémoire",
+    details: "Création d'un jeu de mémoire pour s'entrainer sur JS et React.",
+    technologies: ["React",]
+  },
   ];
 
   const openModal = (project) => {
